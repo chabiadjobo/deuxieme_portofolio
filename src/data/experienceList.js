@@ -1,47 +1,25 @@
 export const experiences = [
   {
     id: 1,
-    from: '09/22',
-    to: 'Aujourd\'hui',
-    job: 'Intégrateur ERP Odoo',
-    title: 'Consultant Projet ERP Coca-Cola GRACEDOM Invest',
-    place: 'CMR',
+    from: '05/23',
+    to: '06/23',
+    job: 'Manager d\'un projet IA ',
+    title: 'Projet accadémique',
+    place: 'Lyon',
     tasks: [
       {
         id: 1,
-        name: "Intégration module de fabrication",
+        name: "Conception et gestion d'une base de données d'images d'étiquettes de vêtements avec SQL",
         subTasks: []
       },
       {
         id: 2,
-        name: "Intégration du module de Gestion de la maintenance",
+        name: "Conception des modèles de Depp learning et de detecction d'image avec OpenCv, TensorFlow, Keras",
         subTasks: []
       },
       {
         id: 3,
-        name: "Mise en place de l'environnement de production",
-        subTasks: [
-          {
-            id: 1,
-            title: "Installation des services"
-          },
-          {
-            id: 2,
-            title: "Mise en place des Pare-feu"
-          },
-          {
-            id: 3,
-            title: "Enregistrement de certificat SSL"
-          },
-          {
-            id: 4,
-            title: "Déploiement des modules"
-          },
-        ]
-      },
-      {
-        id: 4,
-        name: "Gestion du dépot de code source : validation PR, gestion des versions et des droit d'accès",
+        name: "Conception de l'interface utilisateur de l'application web avec HTML, CSS, JavaScript, React.js, Flask",
         subTasks: []
       },
     ],
@@ -49,35 +27,25 @@ export const experiences = [
   // Second experience
   {
     id: 2,
-    from: '03/22',
-    to: '09/22',
-    job: 'Analyste de données',
-    title: 'ENEO',
-    place: 'CMR',
+    from: '01/23',
+    to: '02/23',
+    job: 'Consultant data scientist',
+    title: 'INRAB',
+    place: 'Bénin',
     tasks: [
       {
         id: 1,
-        name: "Extractions des données d’Oracle DB et traitement des demandes spontannées",
+        name: "Collecte et Préparation des Données avec KoboCollect et MySQL",
         subTasks: []
       },
       {
         id: 2,
-        name: "Analyse du rendement de distribution mensuel",
+        name: "Modélisation et Apprentissage Automatique avec les algorithmes réseaux de neurones et les arbres de décision",
         subTasks: []
       },
       {
         id: 3,
-        name: "Collecte et historisation des données brutes (ventes, encaissements, etc.) en BD",
-        subTasks: []
-      },
-      {
-        id: 4,
-        name: "Production et publication de rapport automatisés avec Power BI",
-        subTasks: []
-      },
-      {
-        id: 5,
-        name: "Analyse et conception du Data Mart des ventes",
+        name: "Intégration et Visualisation des Résultats avec QGIS et Matlab",
         subTasks: []
       },
     ],
@@ -85,40 +53,30 @@ export const experiences = [
   // Thirth experience
   {
     id: 2,
-    from: '10/21',
-    to: '02/22',
-    job: 'Intégrateur ERP Odoo',
-    title: 'Consultant Projet ERP RH & PAIE Guichet Unique',
-    place: 'CMR',
+    from: '10/19',
+    to: '12/19',
+    job: 'Biostatisticien - Data scientist',
+    title: 'LARDES',
+    place: 'Bénin',
     tasks: [
       {
         id: 1,
-        name: "Analyse et recceuil des besoins utilisateurs",
+        name: "Enseignant : étudiants en masters et en Licence à l'utilisation des systèmes de collecte de données en mode CAPI tels que KoBoCollect et CSPro.",
         subTasks: []
       },
       {
         id: 2,
-        name: "Mise en place d'un tableau de bord opérationnel",
+        name: "Supervision : mémoires de fin de cycle licence, en particulier dans la conception des outils de collecte de données, la collecte, l'analyse des données et la rédaction des mémoires.",
         subTasks: []
       },
       {
         id: 3,
-        name: "Extensions du module de gestion des RH",
+        name: "Gestion des données : pour plus d'une vingtaine de projets d'études socio-économétriques.",
         subTasks: []
       },
       {
         id: 4,
-        name: "Intégration outils d'analyse croisé et diagrammes",
-        subTasks: []
-      },
-      {
-        id: 5,
-        name: "Déploiement et installation des des modules",
-        subTasks: []
-      },
-      {
-        id: 6,
-        name: "Formation des utilisateurs",
+        name: "Managers de six projets d'études socio-économétriques",
         subTasks: []
       },
     ],
@@ -126,42 +84,35 @@ export const experiences = [
   // fourth experience
   {
     id: 2,
-    from: '01/20',
-    to: '03/21',
-    job: 'Développeur Django',
-    title: 'ISYSSOL',
-    place: 'CMR',
+    from: '09/17',
+    to: '02/19',
+    job: 'Consultant associé en charge de l’Etude',
+    title: 'Chambre de Commerce et d’Industrie, ',
+    place: 'Bénin',
     tasks: [
       {
         id: 1,
-        name: "Projet Mobile Money Viettel Cameroun :",
-        subTasks: [
-          {
-            id: 1,
-            title: "Création de microservices de recharge de forfait internet et de crédit téléphnique",
-          },
-          {
-            id: 2,
-            title: "Création de microservice d'envoi automatisé de SMS via le protocole SMPP",
-          },
-          {
-            id: 3,
-            title: "Réalisation d'un portail USSD de gestion des opérations de Mobile Money",
-          },
-          {
-            id: 4,
-            title: "Réalisation d'un chatbot Whatsapp de gestion des opérations de Mobile Money",
-          },
-        ]
+        name: "Planification de l'étude ",
+        subTasks: []
       },
       {
         id: 2,
-        name: "Réalisation d'une application web de contrôle et de suivie de la consommation de carburant",
+        name: "Revue de littérature et recherche documentaire",
         subTasks: []
       },
       {
         id: 3,
-        name: "Réalisation d'une application web support et suivie des tickets",
+        name: "Conception du système de collecte et de gestion de la base de données",
+        subTasks: []
+      },
+      {
+        id: 4,
+        name: "Supervision de la collecte au plan national",
+        subTasks: []
+      },
+      {
+        id: 5,
+        name: "Élaboration des recommandations, rédaction des rapports et réstitution des résultats",
         subTasks: []
       },
     ],
@@ -169,35 +120,30 @@ export const experiences = [
    // fifth experience
    {
     id: 5,
-    from: '05/19',
-    to: '11/19',
-    job: 'Devéloppeur Fullstack',
-    title: 'Consultant Projet Tours Operator',
-    place: 'CMR',
+    from: '07/17',
+    to: '02/19',
+    job: 'Assistant de recherche en charge de la science des données',
+    title: 'Projet SCOPA - Faculté d\'agronomie de l\'université de Parakou',
+    place: 'Bénin',
     tasks: [
       {
         id: 1,
-        name: "Analyse et conception du système",
+        name: "Conception des outils de collecte de données",
         subTasks: []
       },
       {
         id: 2,
-        name: "Devélopement des modèles et API",
+        name: "Supervision de la collecte de données sur la filière coton",
         subTasks: []
       },
       {
         id: 3,
-        name: "Intégration des design avec React JS",
+        name: "Organisation d'ateliers et de formations ",
         subTasks: []
       },
       {
         id: 4,
-        name: "Mise en place de l'environnemnt de production et déploiement",
-        subTasks: []
-      },
-      {
-        id: 5,
-        name: "Gestion du dépot de code source : validation PR, gestion des versions et des droit d'accès",
+        name: "Gestion des bases de données et analyses",
         subTasks: []
       },
     ],
