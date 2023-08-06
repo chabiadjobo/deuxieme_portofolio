@@ -14,7 +14,7 @@ def lister_contenu_dossier(dossier, indentation=0):
     return contenu_dossier
 
 # Remplacez 'chemin/du/dossier' par le chemin absolu du dossier dont vous souhaitez récupérer l'architecture
-chemin_dossier = '/home/ayedesso/Travail/IA School/Alternance et stage/Projet_Portfolio/portfolio-main/'
+chemin_dossier = 'portfolio-main/'
 
 if os.path.exists(chemin_dossier):
     contenu = lister_contenu_dossier(chemin_dossier)
