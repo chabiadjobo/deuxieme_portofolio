@@ -148,4 +148,35 @@ export const experiences = [
       },
     ],
   },
+  // sixth experience
+  {
+    id: 5,
+    from: '03/16',
+    to: '10/17',
+    job: 'Service économétrie et programmation mathématique',
+    title: 'CIRFOSS',
+    place: 'Bénin',
+    tasks: [
+      {
+        id: 1,
+        name: "Analyse de la performance des algorithmes statistiques de tous les projets du cabinet",
+        subTasks: []
+      },
+      {
+        id: 2,
+        name: "Développement d'un modèle de Deep learning pour prédire la production agricole",
+        subTasks: []
+      },
+      {
+        id: 3,
+        name: "Conduite de plusieurs études d’évaluation d’impact, d’évaluation d’efficacité, de diagnostic,",
+        subTasks: []
+      },
+      {
+        id: 4,
+        name: "Annotation et analyse syntaxique avec Label Studio et Spacy",
+        subTasks: []
+      },
+    ],
+  },
 ]

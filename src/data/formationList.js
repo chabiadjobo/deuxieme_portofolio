@@ -3,18 +3,18 @@ export const formations = [
     id: 1,
     from: '25/23',
     to: 'Aujourd\'hui',
-    job: 'Master 1',
+    job: 'Master 2',
     title: 'Artificial Intelligence & Management',
     place: 'IA School - Lyon',
     tasks: [
       {
         id: 1,
-        name: "Visualisation de données / dashboarding avec Tableau Software/ Power BI",
+        name: "Modélisation de Série Temporelle, Machine Learning, , NLP: Natural Language, ",
         subTasks: []
       },
       {
         id: 2,
-        name: "Analyse statistique",
+        name: "Reconnaissance d'image et transfer learning, Deep learning, Processing with Python",
         subTasks: []
       },
       {
@@ -27,25 +27,25 @@ export const formations = [
   // Second experience
   {
     id: 2,
-    from: '11/14',
-    to: '08/21',
-    job: 'Cycle Ingénieur',
-    title: 'ENSPD de Douala',
-    place: 'Douala - CMR',
+    from: '10/13',
+    to: '02/16',
+    job: 'Master',
+    title: 'Statistiques orientation Biostatistique',
+    place: 'Laboratoire de Biomathématique et d\'estimation forestière - Université d\'Abomey-Calavi',
     tasks: [
       {
         id: 1,
-        name: "Analyse et conception de systèmes d’information",
+        name: "Bases de données et ressources informatiques",
         subTasks: []
       },
       {
         id: 2,
-        name: "Administration et Sécurisation des systèmes d’information",
+        name: "Méthodes statistiques multivariées, Probabilité, Calcul statistique et simulation",
         subTasks: []
       },
       {
         id: 3,
-        name: "Production, déploiement et maintenance de systèmes d’informations",
+        name: "Modèles linéaires et non linéaires et Introduction à l'IA ",
         subTasks: []
       }
     ],

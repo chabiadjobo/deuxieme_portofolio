@@ -16,11 +16,9 @@ export const Skills = () => {
           <div className='row'>
             <LanguageLine language='Python' />
             <LanguageLine language='R' />
-            <LanguageLine language='Javascript' />
-            <LanguageLine language='Typescript' />
-            <LanguageLine language='DART' />
             <LanguageLine language='SQL' />
-            <LanguageLine language='VBA' />
+            <LanguageLine language='STATA' />
+
           </div>
         </div>
         <div className='col-md-6 mb-2'>
@@ -30,10 +28,10 @@ export const Skills = () => {
                <CircularProgress text={"Discipliné"} percent={90} />
             </div>
             <div className='col-4 col-lg-3'>
-               <CircularProgress text={"Multitâche"} percent={80} />
+               <CircularProgress text={"Multitâche"} percent={90} />
             </div>
             <div className='col-4 col-lg-3'>
-               <CircularProgress text={"Ponctuel"} percent={80} />
+               <CircularProgress text={"Ponctuel"} percent={90} />
             </div>
             <div className='col-4 col-lg-3'>
                <CircularProgress text={"Sens de l'initiative"} percent={90} />

@@ -5,26 +5,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from './aboutMe.module.css';
 
 export const AboutMe = () => {
-  let github = { url: 'https://github.com/stephcyrille', title: 'Me trouver sur Github'};
-  let linkedin = { url: 'https://linkedin.com/in/stephcyrille', title: 'Me trouver sur linkedin'};
-  let twitter = { url: 'https://twitter.com/steph_cyrille', title: 'Laissez moi un tweet'};
-  let mail = { url: 'mailto:stephcyril.sc@gmail.com', title: 'Envoyer moi un email'};
+  let github = { url: 'https://github.com/chabiadjobo', title: 'Me trouver sur Github'};
+  let linkedin = { url: 'https://linkedin.com/in/ayedesso-marc-aurele-chabi-adjobo', title: 'Me trouver sur linkedin'};
+  let twitter = { url: 'https://twitter.com/Ayedesso2200220', title: 'Laissez moi un tweet'};
+  let mail = { url: 'mailto:chamaurele@yahoo.fr', title: 'Envoyer moi un email'};
 
   return (
     <div className={ styles.sectionMboutMe } id="aboutMe">
-      <h1 className={ styles.titleName }>Mebenga Atanga Stéphane C.</h1>
+      <h1 className={ styles.titleName }>CHABI ADJOBO Ayédesso M. A.</h1>
       <TypeAnimation
-        sequence={['Développeur Fullstack', 1000, 
-                  'Développeur de BD', 1000, 
-                  'Intégrateur ERP Odoo', 1000, 
-                  'Data Scientist', 1000]}
+        sequence={['Data Scientist', 1000, 
+                  'Ingénieur biostatisticien', 1000, 
+                  'Ingénieur en management de projet', 1000, 
+                  'Data Engineer', 1000]}
                       //  Replacing previous Text
         wrapper="h4"
         repeat={Infinity}
       />
   
       <p>
-        Motivé, ayant une bonne connaissance des méthodes de gestions de projets et un background en devéloppement web conséquent, mon expérience bâti sur près de 5 ans dans les métier du développement m’a permis de découvrir l’univers des progiciels de gestions intégrés et de développer mes connaissances dans ce domaine.
+        Mon expérience en gestion et analyse de données, ainsi que mes compétences en machine learning, NLP, Deep learning et Big data, font de moi un atout pour résoudre des problèmes concrets.
       </p>
 
 
